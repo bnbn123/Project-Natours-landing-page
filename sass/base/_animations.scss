@@ -36,3 +36,26 @@
         transform: translate(0);
     }
 }
+
+@keyframes top{
+	0%{
+		transform: translate(0rem, -2rem);
+	}
+	50% {
+		transform: translate(0rem, 5.5rem);
+    }
+    100%{
+		transform: translate(16.5rem, 0rem);
+    }
+}
+@keyframes bottom{
+	0%{
+		transform: translate(-13.5rem, 0);
+	}
+	50%{
+		transform: translate(6.7rem, -5rem);
+    }
+    100%{
+        transform: translate(18.5rem, 0)
+    }
+}
